@@ -1,0 +1,25 @@
+** About
+A powerful emacs configuration for working with Ruby on Rails.  It
+supports all the programming and markup languages used by Rails, and
+includes a pack of robotic emonkeys to make your life easier.
+
+The configuration depends on the el-get.el package manager for emacs. It
+helps manage package updates, and provides an easy, consistent way to
+describe and customize package recipes.
+
+
+** Installation
+   Clone katmatist emacs configuration.
+   #+BEGIN_SRC sh
+   $ git clone https://github.com/katmatist/emacs.git ~/.emacs.d
+   #+END_SRC
+   Install el-get.el package manager.
+   #+BEGIN_SRC sh
+   $ emacs -e '(url-retrieve \
+                "https://github.com/dimitri/el-get/raw/master/el-get-install.el" \
+                (lambda (s) \
+		  (end-of-buffer) \
+		  (eval-print-last-sexp)))'
+   #+END_SRC
+   Start emacs and let it install the latest packages.
+
