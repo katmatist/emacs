@@ -1,0 +1,10 @@
+Installation
+------------
+
+1) Clone katmatist emacs configuration.
+   $ git clone https://github.com/katmatist/emacs.git .emacs.d
+   
+2) Install el-get.el package manager.
+   $ emacs -e '(url-retrieve "https://github.com/dimitri/el-get/raw/master/el-get-install.el" (lambda (s) (end-of-buffer) (eval-print-last-sexp)))'
+
+3) Start emacs and let it install the latest packages.
